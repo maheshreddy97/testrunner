@@ -1,0 +1,77 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.resources.Base.launch(Base.java:8)\r\n\tat org.stepdefinition.fblogin.the_user_is_in_fb_page(fblogin.java:16)\r\n\tat ✽.the user is in fb page(src/test/resources/1.feature:8)\r\n",
+              "duration": 26803415,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "the user is in fb page",
+            "match": {
+              "location": "fblogin.the_user_is_in_fb_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21914,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "the user enters the username,password and click login btn",
+            "match": {
+              "location": "fblogin.the_user_enters_the_username_password_and_click_login_btn(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24411,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the user navigates to the successful page",
+            "match": {
+              "location": "fblogin.the_user_navigates_to_the_successful_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/1.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
